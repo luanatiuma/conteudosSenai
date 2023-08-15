@@ -1,0 +1,73 @@
+:root{
+    --backgroundFooter: #FDFDFD;
+    --principalColor: #FF0000;
+    --backgroundn: #FAF9F9;
+}
+body{
+    background-color: var(--backgroundn);
+    color: var(--principalColor);
+    font-size: 25px;
+}
+body h1, h2{
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 35px;
+}
+h2, p{
+    color: black;
+}
+header img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Menu Navegação*/
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: var(--principalColor);
+}
+.nav a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--backgroundn);
+    font-size: 25px;
+}
+
+/*Página Home*/
+.textHome{
+    padding: 20px;
+    text-align: center;
+}
+
+/*Páginas*/
+.textSemester{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Rodapé*/
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 18px;
+    padding: 5px;
+    color: black;
+    border: 1px solid var(--principalColor);
+    background-color: var(--backgroundFooter);
+}
+footer img{
+    height: 100%;
+}
